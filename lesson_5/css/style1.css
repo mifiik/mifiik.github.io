@@ -1,0 +1,80 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: Lato;
+	font-style: normal;
+	background-color: white;
+	width: 820px;
+	height: 1594px;
+	margin: 0px auto;
+}
+.header {
+	margin-bottom: 28px;
+}
+.header > h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1e212c;
+	padding: 39px 64px 64px 0px;
+	margin-bottom: 40px;
+}
+.img {
+	height: 360px;
+	width: 810px;
+	margin-bottom: 60px;
+}
+.paragraph3,
+.paragraph1 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1e212c;
+}
+.paragraph4,
+.list,
+.paragraph5,
+.paragraph2,
+.text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+}
+.paragraph1,
+.paragraph4,
+.list {
+	margin-bottom: 24px;
+}
+.paragraph2 {
+	margin-bottom: 48px;
+}
+.paragraph3 {
+	margin-right: 230px;
+	margin-bottom: 48px;
+	padding: 0px 30px 0px 50px;
+}
+.list {
+	padding: 0px 45px 0px 50px;
+}
+.paragraph5 {
+	margin-bottom: 60px;
+}
+.paragraph1,
+.paragraph2 {
+	padding: 0px 24px 0px 0px;
+}
+.text {
+	padding: 0px 0px 40px 0px;
+}
+h2 {
+	margin-bottom: 24px;
+}
