@@ -22,7 +22,7 @@ h1 {
 }
 .block {
 	background-color: green;
-	font-style: bold;
+	font-weight: bold;
 	width: 300px;
 	padding: 20px 20px 20px 20px;
 	margin: 0px 0px 20px 100px;
@@ -48,7 +48,7 @@ h1 {
 	height: 200px;
 }
 .block-3 {
-	font-style: 700px;
+	font-style: italic;
 	width: 200px;
 	height: 300px;
 	background-color: red;

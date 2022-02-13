@@ -1,0 +1,188 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: Lato;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: white;
+}
+.title {
+	font-family: "Circular Std";
+	font-weight: 900;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	text-shadow: -22px 19px 1px rgba(204, 175, 200, 1);
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: red;
+	text-shadow: 2px 1px 3px green;
+	margin-bottom: 10px;
+}
+
+.list {
+	margin-bottom: 10px;
+}
+.list-item {
+	display: inline-block;
+	background-color: red;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 5px 8px 0 rgb(3, 75, 3);
+	margin: 0px 5px 10px 0px;
+}
+div {
+	margin-bottom: 10px;
+}
+.block-1 {
+	background: rgba(23, 128, 117, 0.1);
+	border-top: 5px double rgb(233, 14, 14);
+}
+.text-1 {
+	text-decoration: line-through;
+}
+.block-2 {
+	background: url(../img/Union.png);
+	border-bottom: 1px solid #000;
+}
+.text-2 {
+	text-decoration: underline;
+}
+.block-3 {
+	padding-left: 15px;
+	background: url(../img/list.svg) no-repeat;
+	background: url(../img/list.svg) repeat-x;
+	background: url(../img/list.svg) repeat-y;
+	background: url(../img/ava.png) round;
+	background: url(../img/ava.png) space;
+}
+.text-3 {
+	color: aqua;
+}
+.block-4 {
+	letter-spacing: 3px;
+	padding-left: 20px;
+	background: url(../img/ava.png) 0 0 no-repeat;
+	background: url(../img/ava.png) center no-repeat;
+	background: url(../img/Vector.png) left no-repeat;
+	background: url(../img/Vector.png) bottom right no-repeat;
+	background: url(../img/ava.png) 45px 35px no-repeat;
+}
+.text-4 {
+	text-shadow: 2px 1px 3px #000;
+}
+.block-5 {
+	height: 200px;
+	width: 400px;
+	overflow: scroll;
+	margin: 0 auto;
+	border: solid;
+	background: url(../img/01.png) 0 0 no-repeat scroll;
+	background: url(../img/01.png) 0 0 no-repeat fixed;
+}
+.text-5 {
+	text-align: center;
+	text-transform: lowercase;
+}
+.block-6 {
+	background: url(../img/01.png) 0 0 / auto auto no-repeat;
+	background: url(../img/01.png) 0 0/100% auto no-repeat;
+	background: url(../img/01.png) 0 0 / auto 100% no-repeat;
+	background: url(../img/01.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/01.png) 0 0 / contain no-repeat;
+	background: url(../img/01.png) 0 0 / cover no-repeat;
+	background: url(../img/01.png) 0 0 /100px 100px no-repeat;
+	border: double;
+	box-shadow: inset 10px 5px 10px 10px #000, 0 0 10px 0 green;
+}
+.text-6 {
+	text-align: right;
+	text-transform: uppercase;
+}
+.block-7 {
+	padding-left: 20px;
+	border-radius: 40px;
+	border: dotted;
+	overflow: hidden;
+	background: #18b5a4 url(../img/ava.png) no-repeat;
+	background: url(../img/list.svg) left no-repeat, url(../img/logo.png) 50% / cover no-repeat;
+	background: url(../img/ava.png) right/100px no-repeat, url(../img/ava.png) left no-repeat,
+		url(../img/01.png) 50% / cover no-repeat;
+	background: url(../img/ava.png) 0 0/50px no-repeat, url(../img/ava.png) 100% 100%/50px no-repeat,
+		url(../img/ava.png) 50% no-repeat, url(../img/01.png) 50% / cover no-repeat;
+}
+.text-7 {
+	text-align: justify;
+	text-transform: capitalize;
+}
+.block-8 {
+	border: dashed;
+	background: linear-gradient(
+		135deg,
+		rgba(0, 0, 0, 0.65) 19%,
+		rgba(0, 0, 0, 0.38) 43%,
+		rgba(0, 0, 0, 0) 77%,
+		rgba(0, 0, 0, 0) 82%,
+		rgba(0, 0, 0, 0) 86%
+	);
+}
+.text-8 {
+	color: blue;
+	opacity: 0.2;
+}
+.block-9 {
+	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
+	background: radial-gradient(
+		ellipse at center,
+		rgba(0, 0, 0, 0.65) 19%,
+		rgba(0, 0, 0, 0.38) 43%,
+		rgba(0, 0, 0, 0) 77%,
+		rgba(0, 0, 0, 0) 82%,
+		rgba(0, 0, 0, 0) 86%
+	);
+}
+.text-9 {
+	text-align: center;
+	text-transform: lowercase;
+	opacity: 0.1;
+	color: red;
+}
+.bottom {
+	display: inline-block;
+	background-color: blue;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 5px 8px 0 rgb(23, 24, 23);
+	margin-bottom: 20px;
+}
+span {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgb(56, 8, 56);
+}
+.footer {
+	width: 200px;
+	margin: 0 auto 40px;
+}

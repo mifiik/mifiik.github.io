@@ -1,0 +1,130 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-size: 17px;
+	background-color: whitesmoke;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 2px 1px 3px #000;
+	margin-bottom: 20px;
+}
+.header {
+}
+.nav {
+	text-align: right;
+}
+.list {
+	font-family: "Nanum Pen Script", cursive;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: red;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+.list-item {
+	display: inline-block;
+	margin-right: 20px;
+}
+.lorem1 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	margin: 0px auto;
+	padding: 20px;
+	border-radius: 40px;
+	border: dotted;
+	overflow: hidden;
+}
+.text1 {
+	font-family: "Luxurious Script", cursive;
+	font-weight: bold;
+	color: aqua;
+	text-transform: capitalize;
+}
+.lorem2 {
+	background-color: green;
+	width: 400px;
+	border: solid;
+}
+.text2 {
+	/*color: black;*/
+	text-transform: uppercase;
+	word-spacing: 6px;
+	text-shadow: 5px 10px 20px rgb(97, 37, 37);
+}
+.lorem3 {
+	background-color: goldenrod;
+	width: 200px;
+	margin-left: auto;
+	border: double;
+	box-shadow: 10px 10px 10px 10px #000;
+}
+.text3 {
+	font-family: "Marck Script", cursive;
+	font-weight: bold;
+	color: blue;
+	text-transform: lowercase;
+	text-align: center;
+}
+.lorem4 {
+	background-color: blue;
+	width: 400px;
+	box-shadow: 20px 10px 30px 10px rgb(123, 190, 46);
+}
+.strofe {
+	text-decoration: line-through;
+	color: red;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	border: dashed;
+}
+.lorem5 {
+	background-color: black;
+	height: 200px; /*just us experement)))*/
+	width: 200px;
+	margin: 0px auto;
+	overflow: scroll;
+	opacity: 0.5;
+}
+.text5 {
+	text-decoration: underline;
+	color: beige;
+	text-transform: lowercase;
+}
+.lorem6 {
+	background-color: fuchsia;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	overflow: hidden;
+	opacity: 0.7;
+	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
+}
+.text6 {
+	color: black;
+	text-transform: uppercase;
+}
+.foto,
+.foto1 {
+	width: 50px;
+	height: 50px;
+	/*background-color: black;*/
+}
+.heinrik {
+	display: inline-block;
+	text-transform: uppercase;
+	width: 100px;
+	border: solid;
+}
